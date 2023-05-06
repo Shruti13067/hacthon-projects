@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="hospital.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sidebar/sort.css">
+</head>
+  
+<body>
+
+    
+    <div id="mySidenav1" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="sidebar/sort.html">Review & Rating</a>
+        <a href="#">Low to High</a>
+        <a href="#">High to Low</a>
+      </div>
+      <div id="mySidenav2" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+        <a href="#">Nearby</a>
+        <a href="#">Price(Low to High)</a>
+        <a href="#">Price(High to Low)</a>
+        <a href="#">Symptoms</a>
+      </div>
+      <div id="mySidenav3" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+        <a href="treatment/caract.html">Cataract</a>
+        <a href="treatment/laser.html">Laser</a>
+        <a href="treatment/brain.html">Brain Tumor Surgery</a>
+        <a href="treatment/ortho.html">Orthopedic Surgery</a>
+        <a href="treatment/rad.html">Radiology</a>
+      </div>
+      <div id="mySidenav4" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+        <a href="#">Cataract</a>
+        <a href="#">Laser</a>
+        <a href="#">Brain Tumor Surgery</a>
+        <a href="#">Orthopedic Surgery</a>
+        <a href="#">Radiology</a>
+      </div>
+   
+      
+      <div style="margin-left:80px;">
+    <input id="searchbar" onkeyup="search()" type="text"
+        name="search" placeholder="Search..">
+        <div id="mySidenav" class="sidenav">
+  <a href="#" id="about"><span style="font-size:30px;cursor:pointer" onclick="openNav()">Sort</span></a>
+  <a href="#" id="blog"><span style="font-size:30px;cursor:pointer" onclick="openNav2()">Filter</span></a>
+  <a href="#" id="projects"><span style="font-size:30px;cursor:pointer" onclick="openNav4()">Doctor</span></a>
+  <a href="#" id="contact"><span style="font-size:30px;cursor:pointer" onclick="openNav3()">Treatm -ent price</span></a>
+</div>
+
+<div style="margin-left:0px;">
+      
+    <!-- ordered list -->
+    <ol id='list'style="list-style: none;"  >
+        <li class="animals">
+                <div class="row">
+                    <div class="column" >
+                        <img src ="images/popular-hospital-pic (1).jpg">
+                    </div>
+                    <div class="column1" >
+                       
+                        <a href="hospitals/pop.html" style="color: black;"> <span>Popular Hospital</a><br>Kakarmatta,Varanasi</span><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span><br>
+                <span>30 Years Experience</span><br>
+                <span>Popular Medicare Limited, the hospital was started to provide general surgery and gynaecological services. However, soon it started ... <a href="hospitals/pop.html" style="color: black;">READ MORE</a></span>
+                    </div>
+        </li>
+        <li class="animals">
+            <div class="row">
+                <div class="column" >
+                    <img src ="images/download (1)upkar.jpg">
+                </div>
+                <div class="column1" >
+                   
+                    <a href="hospitals/apex.html" style="color: black;">  <span>Apex Hospital</a><br>Sunderpur,Varanasi</span><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span><br>
+            <span>29 Years Experience</span><br>
+            <span>Apex Superspeciality Hospital Best Hospital for spine surgery, this hospital have latest technologies like O-arm Machine with navigation system, ... <a href="hospitals/pop.html" style="color: black;"> READ MORE</a></span>
+                </div>
+        </li>
+        <li class="animals">
+            <div class="row">
+                <div class="column" >
+                    <img src ="images/images alliance.jpg">
+                </div>
+                <div class="column1" >
+                   
+                    <a href="hospitals/alli.html" style="color: black;"> <span>Alliance Hospital</a><br>Sigra,Varanasi</span><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span><br>
+            <span>18 Years Experience</span><br>
+            <span> Alliance Hospital is an multispecialty clinic where you will get treatment for all diseases under one roof. It ... <a href="hospitals/alli.html" style="color: black;"> READ MORE</a></span>
+                </div>
+        </li>
+
+        <li class="animals">
+            <div class="row">
+                <div class="column" >
+                    <img src ="images/shu download (1).jpg">
+                </div>
+                <div class="column1" >
+                   
+                    <a href="hospitals/upk.html" style="color: black;"> <span>Shubham Hospital</a><br>khajuri,Varanasi</span><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span><br>
+            <span>15 Years Experience</span><br>
+            <span>Shubham Hospital, in a very short span of time, has grown to be one of the top most hospitals in Varanasi. Aiming at delivering highest patient care ... <a href="hospitals/upk.html" style="color: black;"> READ MORE</a></span>
+                </div>
+        </li>
+
+        <li class="animals">
+            <div class="row">
+                <div class="column" >
+                    <img src ="images/heritage-hospitals-ltd-lanka-varanasi-hospitals-aavw5vaoza.webp">
+                </div>
+                <div class="column1" >
+                   
+                    <a href="hospitals/her.html" style="color: black;"> <span>Heritage Hospital</a><br>Lanka,Varanasi</span><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span></br>
+            <span>28 year Experience</span><br>
+            <span>Heritage Hospitals is the first organised corporate multidisciplinary super-speciality hospital of the region. The strong Medical Faculty, State of the Art ... <a href="hospitals/her.html" style="color: black;"> READ MORE</a></span>
+                </div>
+        </li>
+
+        <li class="animals">
+            <div class="row">
+                <div class="column" >
+                    <img src ="images/rk eyes download (1).jpg">
+                </div>
+                <div class="column1" >
+                   
+                    <a href="hospitals/rk.html" style="color: black;"> <span>R K Netralaya Eye Hospital Pvt Ltd</a><br>Mahmoorganj,Varanasi</span><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span><br>
+            <span>38 Years Experience</span><br>
+            <span>R K Netralaya Eye Hospital Pvt Ltd is accredited for providing specialty treatments in Lasik Eye Surgery,Eye Surgery,Laser Resurfacing,Pediatric Treatment,Laser  ... <a href="hospitals/rk.html" style="color: black;"> READ MORE</a></span>
+                </div>
+        </li>
+
+        <li class="animals">
+            <div class="row">
+                <div class="column" >
+                    <img src ="images/asg download (1).jpg">
+                </div>
+                <div class="column1" >
+                   
+                    <a href="hospitals/asg.html" style="color: black;"><span>Asg Eye Hospital</a><br>Mahmoorganj,Varanasi</span><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span><br>
+            <span>29 Years Experience</span><br>
+            <span>Established in the year 2015, Asg Eye Hospital in Mahmoorganj, Varanasi is a top player in the category Ophthalmologists in the Varanasi. This well-known...<a href="hospitals/asg.html" style="color: black;">READ MORE</a></span>
+                </div>
+        </li>
+       
+    </ol>
+    </div>
+      
+    <!-- linking javascript -->
+    <script src="search.js"></script>
+    
+</body>
+</html>

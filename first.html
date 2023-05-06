@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="ezgif.com-crop (4).gif" alt="Snow" style="width:100%;">
+        <div class="bottom-left"><b>Love Yourself? Trust us!</b></div>
+        <div class="top-left">
+            
+        </div>
+        <div class="top-right"><b><a href="login.html">Login</a></b></div>
+        <div class="bottom-right">
+            <button>Book an Appointment</button>
+            <a href="hospital.html"><button>Search Hospital</button></a>
+            <button>Search doctors</button>
+        </div>
+        </div>
+        <div class="row3">
+            <div class="column9">
+               <br>
+               <br>
+            </div>
+            <div class="column8">
+                <h1>Imagine a world where finding the right healthcare provider is as easy as clicking a button. No more endless searching or second-guessing. That's where our project comes in, a healthcare website that's like a matchmaker for patients and providers. With our filter system, patients can customize their search based on budget, disease symptoms, and ranking, finding the perfect match for their healthcare needs</h1>
+            </div>
+        </div>
+        <div class="centered">
+            <img src="Screenshot__46_-removebg-preview (1).png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column1">
+            <br>
+        </div>
+        <div class="column">
+            <div class="word">
+            <hr>
+            <h4>Flexible Solution</h4>
+            <small>Stop Searching details of the hospital from different different Hospitals. Our website provide you thw best and all the required details of any Hospital.</small>
+            <br>
+            <br>
+            <hr>
+            <h4>Fully Customizable</h4>
+            <small>Not just a search.You can customize your search for the hospital according to your requirement.</small>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="word">
+            <hr>
+            <h4>Smart Quotes</h4>
+            <small>Know what you are paying for. No hidden fees. No overpromises. Flights suitable for your needs.</small>
+            <br>
+            <br>
+            <hr>
+            <h4>Personalization</h4>
+            <small>Receive full support from us. We can get you Hospitals from anywhere.</small>
+            </div>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="column4">
+            <img src="appoinment.jpg" alt="Snow" class="image">
+                <div class="overlay">Check your Appointment Timer</div>
+        </div>
+        <div class="column4">
+            <img src="imageedit_2_9118968568.jpg" alt="Snow" class="image">
+                <div class="overlay">Sell your Equipment</div>
+        </div>
+        <div class="column4">
+                <img src="buyer seller image (1).jpg" alt="Snow" class="image">
+                <div class="overlay">Buy your Equipment</div>
+        </div>
+      </div>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="hospital.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="WhatsApp Image 2023-05-06 at 12.38.00.jpeg" style="width:100%">
+          </div>
+    
+        <div class="mySlides fade">
+            <img src="WhatsApp Image 2023-05-06 at 12.42.24.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="WhatsApp Image 2023-05-06 at 12.41.26.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="WhatsApp Image 2023-05-06 at 12.39.14.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/popular-hospital-pic (1).jpg" style="width:100%">
+          </div>
+          
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>  
+          <span class="dot"></span>  
+        </div>
+        <h5>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp What are you waiting for?</h5>
+        <h1><b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp  BOOK YOUR APPOINTMENT</b></h1>
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+</body>
+</html>

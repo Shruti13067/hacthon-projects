@@ -1,0 +1,59 @@
+.column11 {
+    float: left;
+    width: 33%;
+    margin-top: 2%;
+  }
+  .column15 {
+    float: left;
+    width: 33%;
+    margin-top: 1%;
+  }
+  .row11{
+    box-shadow: 6px 6px 6px 5px rgb(116, 116, 116);
+    background-color: rgb(120, 220, 186);
+  }
+  .pic{
+    width: 78%;
+    height: 2%;
+  }
+  /* Clear floats after the columns */
+  .row11:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column10 {
+    float: left;
+    width: 70%;
+  }
+  .column13 {
+    float: left;
+    width: 30%;
+  }
+  h2{
+    margin-left: 31%;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+  }
+  
+  p{
+    font-family: 'Times New Roman', serif;
+    font-size: 19px;
+  }
+  h4{
+    font-size: 19px;
+  }
+  h3{
+    font-size: 26px;
+  }
+  h6{
+    font-size: 16px;
+  }
+  /* Clear floats after the columns */
+  .row9:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
