@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="timer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Set Your Time</h1>
+        
+         <label>Enter Your Appointment No.</label> 
+        <input id="firstName" type="number"></input><br>
+        <label>Enter time you need the Reminder before</label>
+        <input id="threeMonthGoal" type="number"></input>
+        <button id="submitButton" type="submit">Print Name</button>
+        <p id='result'></p>
+        </div>
+        <h2 id="demo"></h2>
+</body>
+<script>
+    let my=0;
+    var threeMonthGoal=0;
+    function userNameInput () {
+  var firstName = document.getElementById('firstName').value;
+   threeMonthGoal = document.getElementById('threeMonthGoal').value;
+  var result = document.getElementById('result');
+  
+  for (let i = 0; i < firstName; i++)
+  {
+        my=my+i+3;
+  }
+
+         threeMonthGoal=my-threeMonthGoal;
+       result.textContent = 'Your Appointment No. is: ' + firstName + ' and Time left for Appointment ' + threeMonthGoal+' mins';
+
+   }
+   
+   const myTimeout = setTimeout(myGreeting, 120000);
+
+function myGreeting() {
+  document.getElementById("demo").innerHTML = "time is coming"
+}
+submitButton.addEventListener('click', userNameInput, false);
+
+</script>
+</html>
