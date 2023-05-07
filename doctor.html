@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="hospital.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sidebar/sort.css">
+</head>
+  
+<body>
+
+    
+    <div id="mySidenav1" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="sidebar/sort.html">Review & Rating</a>
+        <a href="#">Low to High</a>
+        <a href="#">High to Low</a>
+      </div>
+      <div id="mySidenav2" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+        <a href="#">Nearby</a>
+        <a href="#">Price(Low to High)</a>
+        <a href="#">Price(High to Low)</a>
+        <a href="#">Symptoms</a>
+      </div>
+      <div id="mySidenav3" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+        <a href="treatment/caract.html">Cataract</a>
+        <a href="treatment/laser.html">Laser</a>
+        <a href="treatment/brain.html">Brain Tumor Surgery</a>
+        <a href="treatment/ortho.html">Orthopedic Surgery</a>
+        <a href="treatment/rad.html">Radiology</a>
+      </div>
+      <div id="mySidenav4" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+        <a href="treatment/caract copy.html">Cataract</a>
+        <a href="treatment/laser copy.html">Laser</a>
+        <a href="treatment/brain copy.html">Brain Tumor Surgery</a>
+        <a href="treatment/ortho copy.html">Orthopedic Surgery</a>
+        <a href="treatment/rad copy.html">Radiology</a>
+      </div>
+   
+      
+      <div style="margin-left:80px;">
+    <input id="searchbar" onkeyup="search()" type="text"
+        name="search" placeholder="Search..">
+        <div id="mySidenav" class="sidenav">
+  <a href="#" id="about"><span style="font-size:30px;cursor:pointer" onclick="openNav()">Sort</span></a>
+  <a href="#" id="blog"><span style="font-size:30px;cursor:pointer" onclick="openNav2()">Filter</span></a>
+  <a href="#" id="projects"><span style="font-size:30px;cursor:pointer" onclick="openNav4()">Doctor</span></a>
+  <a href="#" id="contact"><span style="font-size:30px;cursor:pointer" onclick="openNav3()">Treatm -ent price</span></a>
+</div>
+
+<div style="margin-left:0px;">
+      
+    <!-- ordered list -->
+    <ol id='list' >
+        <li class="animals">
+                       
+                   <span>Dr. Suram Sushama<br>Cataract Surgeon & Lasik Eye Surgeon - 18 Yrs. Exp.</span><br>
+                
+                <small>Hospital(s):  Pristyn Care - Bangalore</small><br>
+                <small>Dr. Sushama Suram is a Ophthalmologist/ Eye Surgeon in HSR Layout, Bangalore and has an experience of 18 years in this field. Dr. Sushama Suram practices at Pristyn Care Clinic in HSR Layout, Bangalore. She completed MBBS from Dr. NTR University of Health Sciences.</small>
+               <br> <button>Book Online Appointment</button>
+                <button>Book Offline Appointment</button>
+        </li>
+        <br>
+        <hr>
+        <br>
+        <li class="animals">
+          <span> Dr. Kripa Pulasaria<br>Cataract Surgeon & Lasik Eye Surgeon- 18 Yrs. Exp.</span><br>
+            <small>Hospital(s):  Pristyn Care - Mumbai</small><br>
+            <small>Dr. Kripa Pulasaria is an Ophthalmologist/ Eye Surgeon and has an experience of 18 years in this field. She completed MBBS from Maharashtra University of Health Sciences, Nashik in 2004 and DNB - Ophthalmology from National Board Of Examination in 2009. </small>
+           <br> <button>Book Online Appointment</button>
+            <button>Book Offline Appointment</button>
+
+        </li>
+        <br>
+        <hr>
+        <br>
+        <li class="animals">
+                   
+            <span>Dr. Abdul Qadir<br>Lasik Eye Surgeon - 17 Yrs. Exp.</span><br>
+            <small>Hospital(s):  Pristyn Care - Delhi</small><br>
+            <small> Dr. Abdul Qadir is an Ophthalmologist/ Eye Surgeon and has an experience of 17 years in this field. He completed MBBS from Chaudhary Charan Singh University, Meerut in 2005 and MS from Chhatrapati Shahu Ji Maharaj University, Kanpur in 2012.</small>
+           <br> <button>Book Online Appointment</button>
+            <button>Book Offline Appointment</button>
+        </li>
+        <br>
+        <hr>
+        <br>
+        <li class="animals">                  
+            <span>Dr. T.R. Sudheendra<br>Brain Tumor Surgeon - 33 Yrs. Exp.            </span><br>
+            <small>Hospital(s): Dr. Malathi Manipal Hospital (Jayanagar) </small><br>
+            <small> Has rich experience in treatment of all types of Brain complaints. Specializes in surgical management of spinal fractures. Has successfully treated several cases of intervertebral degenerative disorders, disc prolapse, intervertebral joint arthritis etc.</small>
+           <br> <button>Book Online Appointment</button>
+            <button>Book Offline Appointment</button>
+        </li>
+        <br>
+        <hr>
+        <br>
+        <li class="animals">        
+             <span>Dr. Yash Gulati<br>Orthopedic Surgeon - 32 Yrs. Exp.</span><br>
+            <small>Hospital(s): Indraprastha Apollo Hospitals</small><br>
+            <small>Dr.Yash Gulati is the youngest surgeon in orthopedics who has been awarded with Padma Shree award by the President of India. He is an internationally famous orthopedic surgeon specialized in joint replacement and spine surgeries.</small>
+            <br><button>Book Online Appointment</button>
+            <button>Book Offline Appointment</button>
+        </li>
+        <br>
+        <hr>
+        <br>
+        <li class="animals">
+            <span>Dr. Vandana Agarwal (krishna Diagnostics)<br>Radiologist - 15 Yrs. Exp.</span><br>
+
+            <small>Hospital(s): krishna Diagnostics</small><br>
+            <small>Dr. Vandana Agarwal (krishna Diagnostics) listed under Radiologist Doctors in Over Seprating Road Of NITI KHAND 2 & 3,
+                Ghaziabad, Delhi. Check Visiting Time, Fees, Address, Contact Number, Ratings & Reviews, Photos, Maps etc, on Justdial.</small>
+                <br><button>Book Online Appointment</button>
+            <button>Book Offline Appointment</button>
+        </li>
+        <br>
+        <hr>
+        <br>
+    </ol>
+    </div>
+      
+    <!-- linking javascript -->
+    <script src="search.js"></script>
+    
+</body>
+</html>
